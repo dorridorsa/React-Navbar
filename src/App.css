@@ -1,11 +1,27 @@
 .App {
   text-align: center;
-  background-color: rgb(131, 195, 255);
+  background-color: rgb(255, 229, 255);
+  max-height: 90px;
+  
+}
+
+.layout{
+display: flex;
+justify-content: center;
+padding: 8px 8px 8px 8px;
+gap: 50px;
+max-height: 30px;
+border-radius: 2px;
+
+
+
 }
 
 .App-logo {
   height: 50px;
   pointer-events: none;
+  display: flex;
+  margin: 8px 8px 8px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -15,14 +31,25 @@
 }
 
 .me-auto{
-  font-size: 18px;
-  
+  display: flex;
+justify-content: center;
+padding: 8px 8px 8px 8px;
+gap: 20px;
+font-size: large;
+
+}
+
+.me-auto :hover{
+  background-color: rgb(208, 188, 211);
+  border-radius: 5px;
+
 }
 
 p{
   color: black;
-  font-size: 18px;
+  font-size: 15px;
   padding: 8px 8px 8px;
+  display: flex;
 }
 
 
